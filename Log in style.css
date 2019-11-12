@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px; 
+  }
+  
+  body{
+    background-image: url(./background\ for\ signup\ page.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .wrap{
+    max-width: 500px;
+    border-radius:20px;
+    margin:auto;
+    margin-left: 100px;
+    background-color:none;
+    box-sizing: border-box;
+    padding:40px;
+    color: #fff;
+    margin-top:100px;
+  }
+  h1{
+    text-align: center;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=text], input[type=password]{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px 5px;
+      background: rgba(0,0,0,0.10);
+      outline: none;
+      font-size: 10px;
+      border-bottom: 1px dotted #fff;
+      color: #fff;
+      border-radius: 5px;
+      margin: 5px;
+      font-weight: bold;
+  }
+  .Submit{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    background: orange;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+  .Submit:hover{
+    
+    background-color: rgba(0, 136,169,1);
+    transition: all 0.3s ease 0s;
+    opacity: 0.7;
+  }
+  
+  .footer-main-div{
+    text-align: center;
+    border-radius:5px;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    background: #272727;
+    padding: 15px;
+    color:white;
+    
+  }
+  
+  .footer-main-div ul{
+    list-style-type:none;
+    text-align:center;
+    margin:10px;
+    border-radius:5px;
+  }
+  
+  .footer-main-div ul li{
+    display: inline;
+  }
+  
+  .footer-main-div ul li a{
+    text-decoration:none;
+    font-family:Helvetica;
+    color:white;
+  }
+  
+  li, a, button{
+    letter-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  header{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    padding: 40px 10%;
+  }
+  .logo{
+  position: absolute;
+  left: 40px;
+  top: 20px;
+  
+  }
+  
+  .nav_links{
+    list-style: none;
+  }
+  
+  .nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  
+  .nav_links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+  
+  }
+  .nav_links li a:hover{
+  color: #0088a9;
+  }
